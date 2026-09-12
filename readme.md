@@ -4,6 +4,14 @@ Terminal CSV editor. One job: edit cell values in a CSV file, in a spreadsheet-l
 
 ## Download
 
+### One-command install
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/aleee-dev1/rcsv/main/install.sh | bash
+```
+
+The installer automatically detects your OS and architecture and downloads the appropriate binary.
+
 ### Linux
 
 **x86_64**
@@ -35,14 +43,6 @@ chmod +x ~/.local/bin/rcsv
 curl -fsSL https://github.com/aleee-dev1/rcsv/releases/latest/download/rcsv-macos-x86_64 -o ~/.local/bin/rcsv
 chmod +x ~/.local/bin/rcsv
 ```
-
-### One-command install
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/aleee-dev1/rcsv/main/install.sh | bash
-```
-
-The installer automatically detects your OS and architecture and downloads the appropriate binary.
 
 ### Build from source
 
